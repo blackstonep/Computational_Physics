@@ -1,0 +1,106 @@
+plot 1	
+# plot <filename>
+	expand 2
+	data $1
+	read { k 1 n1 2 n2 3 }
+	lim 0 40 0 1
+	ltype 0	
+	connect k n1
+	ltype 2
+	connect k n2	
+	box 
+	xlabel k
+	ylabel N
+
+lateplot 1	
+# lateplot <filename>
+	expand 2
+	data $1
+	read { k 1 n1 2 n2 3 }
+	lim 950 1000 0.6 0.7
+	ltype 0	
+	connect k n1
+	ltype 2
+	connect k n2	
+	box 
+	xlabel k
+	ylabel N
+
+logplot 1	
+# logplot <filename>
+	expand 2
+	data $1
+	read { k 1 n1 2 n2 3 }
+	set n1 = lg(n1)
+	set n2 = lg(n2)
+	ticksize 50 200 -1 10
+	lim k n1
+	ltype 0	
+	connect k n1
+	ltype 2
+	connect k n2	
+	box 
+	xlabel k
+	ylabel N
+	# go back to default:
+	ticksize 0 0 0 0
+
+Fig1
+# Fig1
+	define x_gutter 0.6
+	define y_gutter 0.6
+	erase
+	window 2 2 1 2
+	plot data_0.5.out
+	window 2 2 2 2 
+	plot data_2.5.out
+	window 2 2 1 1
+	plot data_3.5.out
+	window 2 2 2 1
+	plot data_3.9.out
+	window 1 1 1 1
+
+Fig2
+# Fig2
+	erase
+	logplot data_0.99.out	
+	data data_1.01.out
+	read { k 1 n1 2 n2 3 }
+	set n1 = lg(n1)
+	set n2 = lg(n2)
+	ltype 0
+	connect k n1
+	ltype 2
+	connect k n2
+	xlabel k
+	ylabel N
+	# go back to default:
+	ticksize 0 0 0 0
+	lim 0 10 0 10
+	relocate 5 8
+	putlabel 6 \lambda = 1.01
+	relocate 3 3 
+	putlabel 6 \lambda = 0.99
+
+Fig3
+# Fig3
+	erase
+	define x_gutter 0.6
+	define y_gutter 0.6
+	window 1 2 1 2
+	lateplot data_2.99.out
+	window 1 2 1 1
+	lateplot data_3.out
+	window 1 1 1 1
+
+Fig4
+# Fig4
+	erase
+	define x_gutter 0.6
+	define y_gutter 0.6
+	window 1 2 1 2
+	lateplot data_3.56.out
+	window 1 2 1 1
+	lateplot data_3.58.out
+	window 1 1 1 1
+

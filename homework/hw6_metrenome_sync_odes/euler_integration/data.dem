@@ -1,0 +1,22 @@
+set title "y(x) for n = 51"
+set format y "%e"
+set key bottom left
+set xlabel "x"
+set ylabel "y"
+set yrange [-1.2:1.2]
+#set logscale y
+plot "analytical_data.dat" w lines title "Analytical", "implicit_data.dat" w lines title \
+	"Implicit", "explicit_data.dat" w lines title "Explicit"
+	
+pause -1 "Hit enter"
+
+set terminal postscript
+set output "| ps2pdf - graph6.1.pdf"
+
+replot
+
+#plot "implicit_data.dat" title "Implicit", "explicit_data.dat" title "Explicit", \
+#        "analytical_data.dat" title "Analytical"
+#pause -1 "Hit enter"
+
+

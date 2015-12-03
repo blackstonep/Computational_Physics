@@ -1,0 +1,12 @@
+set termoption enhanced
+set title "Ratio T / T_0 vs. {/Symbol q} _0"
+set xlabel "{/Symbol q} _0"
+set ylabel "T / T_0"
+set grid
+set key off
+plot "data.dat" using 1:3 with lines
+set terminal postscript enhanced
+set output "| ps2pdf - T_vs_Theta.pdf"
+replot
+pause -1 "Hit return to continue"
+

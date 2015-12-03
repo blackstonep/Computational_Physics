@@ -1,0 +1,53 @@
+plot 1	
+# plot <filename>
+	expand 2
+	location 4500 31000 4500 31000
+	erase
+	data $1
+	read { k 1 n1 2 n2 3 }
+	lim k n1
+	ltype 0	
+	connect k n1
+	ltype 2
+	connect k n2	
+	box 
+	xlabel k
+	ylabel N
+
+lateplot 1	
+# lateplot <filename>
+	expand 2
+	location 4500 31000 4500 31000
+	erase
+	data $1
+	read { k 1 n1 2 n2 3 }
+	lim 950 1000 0 1
+	ltype 0	
+	connect k n1
+	ltype 2
+	connect k n2	
+	box 
+	xlabel k
+	ylabel N
+
+logplot 1	
+# logplot <filename>
+	expand 2
+	location 4500 31000 4500 31000
+	erase
+	data $1
+	read { k 1 n1 2 n2 3 }
+	set n1 = lg(n1)
+	set n2 = lg(n2)
+	ticksize 50 200 -1 10
+	lim k n1
+	ltype 0	
+	connect k n1
+	ltype 2
+	connect k n2	
+	box 
+	xlabel k
+	ylabel N
+	# go back to default:
+	ticksize 0 0 0 0
+

@@ -1,0 +1,82 @@
+//================================================================
+//
+// Code for PHYS 3020 Example Problem
+//
+//================================================================
+
+//================================================================
+// Numerical Recipes
+//================================================================
+#include "nr3.h"
+//================================================================
+// Update
+//================================================================
+#include "update.h"
+//================================================================
+//
+// Main code
+//
+//================================================================
+
+int main() {
+  //==============================================================
+  // Read in lambda and define variables
+  // NOTE: Instead of just finding one sequence, we'll always do
+  //       two that start out very similar (differ by del) - keeping
+  //       track of their difference will help identify chaotic 
+  //       behavior
+  //==============================================================
+  Doub lambda;
+  cout << "Enter lambda = " << endl;
+  cin >> lambda;
+  // NOTE: ALWAYS write out input, to make sure you and the computer agree...
+  cout << " Using lambda = " << lambda << endl; 
+  const Doub del = 0.001;       // small difference between initial numbers 
+  VecDoub N_old(2), N_new(2);  // arrays to store N's
+  const int k_step = 300;    // number of steps to be taken
+  //==============================================================
+  // Create output file
+  // NOTE: first create filename that contains value of lambda,
+  //       this makes organization of results *MUCH* easier
+  //==============================================================
+  ofstream outfile;
+  ostringstream filename;
+  filename << "data_lambda=" << lambda << ".out" << ends;
+  outfile.open(filename.str().c_str());
+  //==============================================================
+  // Write header of output file.  Include "#" at beginning of line,
+  // so that file can be read by plotting programs
+  //==============================================================
+  outfile.setf(ios::left);
+  outfile << "# lambda = " << lambda << endl;
+  outfile << "#===============================================" << endl;
+  //==============================================================
+  // Set up N's
+  //==============================================================
+  outfile << setw(12) << "0";
+  N_old[0] = 0.7;
+  N_old[1] = 0.7*(1.0 + del);
+  outfile << setw(15) << N_old[0] << setw(15) << N_old[1] << endl;
+  //==============================================================
+  // Loop over steps...
+  //==============================================================
+  for (int k = 1; k < k_step; k++) {
+    outfile << setw(12) << k;
+    //==============================================================
+    // And over N's (really this doesn't make sense for only two
+    // Ns, but you may consider using more)
+    //==============================================================
+    for (int i = 0; i < 2; i++) {
+      // call update to update N's
+      N_new[i] = update(N_old[i],lambda);
+      outfile << setw(15) << N_new[i];
+      N_old[i] = N_new[i];
+    }
+    outfile << endl;
+  }  
+  //==============================================================
+  // Close output file
+  //==============================================================
+  outfile.close();
+}
+ 

@@ -1,0 +1,20 @@
+set grid
+set key off
+set title "Energy per Spin v. No. Sweeps, T = 1.5"
+set xlabel "No. of Sweeps"
+set ylabel "Energy per Spin"
+plot "energy.dat" with lines
+set terminal postscript 
+set output "| ps2pdf - nrg_v_sweeps.pdf"
+replot
+pause -1 "Hit enter to continue"
+
+set terminal x11
+set title "Magnetization per Spin v. No. Sweeps, T = 1.5"
+set xlabel "No. of Sweeps"
+set ylabel "Magnetization per Spin"
+plot "magnet.dat" with lines
+set terminal postscript
+set output "| ps2pdf - magn_v_sweeps.pdf"
+replot
+pause -1 "Hit enter to continue"

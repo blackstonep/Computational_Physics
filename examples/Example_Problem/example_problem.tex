@@ -1,0 +1,72 @@
+\documentclass[14pt]{article}
+
+\usepackage[margin=0.5in,top=0.5in,bottom=0.5in]{geometry}
+
+\begin{document}
+
+{\begin{center}
+{\bf\large  Physics 3020 -- Methods of Computational Physics -- 
+Fall 2015}\\[2mm]
+Example Problem \\[2mm]
+\end{center}
+
+A very simple model of population growth is given by the model of
+Robert May, George Oster and Jim Yorke, which states that the
+population of a $k$-th generation is given by
+\begin{equation} \label{law}
+N^k = \lambda N^{k-1} ( 1 - N^{k-1}).
+\end{equation}
+Here $N^k$ can take values between 0 and 1, $0 \leq N^k \leq 1$, and
+provides some measure of the size of a given generation.  As long as a
+population is sufficiently small, the size of the next generation
+should be proportional to the size of the previous generation.  That's
+taken care of by the term $N^{k-1}$ in (\ref{law}).  When the size of
+the population reaches the maximum of what can possibly be supported,
+$N=1$ in this model, over-population should lead to a decrease in the
+size of the next generation.  That's accomplished by the term ($1 -
+N^{k-1}$) in (\ref{law}).  The factor $\lambda$ is a constant of
+proportionality, the size of which may lead to completely different
+behavior of the population development.  In particular,
+\begin{itemize}
+\item  $\lambda <\lambda_1$ leads to extinction (i.e.~$N^k \rightarrow 0$ as
+$k \rightarrow \infty$),
+\item for $\lambda_1 < \lambda < \lambda_2$ 
+the population settles down to a constant value (greater than
+zero),
+\item for $\lambda_2 < \lambda < \lambda_3$ the population goes
+through repeating cycles, 
+\item and for $\lambda > \lambda_3$ we find {\em
+chaotic} behavior (at least for some values for $\lambda$).  
+\end{itemize}
+Chaotic behavior means that an arbitrarily small
+difference between two initial values $N^0$ leads to an arbitrarily
+large difference between the populations after a finite number of
+steps. 
+
+\begin{enumerate}
+\item
+What is the maximum value that $\lambda$ may take to insure 
+that $N^k \leq 1$?
+
+\item
+Write a computer program that
+computes population size sequences $N^k$.  To search for chaotic
+behavior, you may want to evolve two sequences simultaniously,
+starting one with $N_0$, say, and the other with $N_0(1 + \delta)$,
+where $\delta \ll 1$ is a small number.
+
+\item
+Run your program from
+part (b) for various values of $\lambda$ (it's ok to always start with
+the same starting value $N_0$, for example $N_0 = 1/2$) and describe
+the different kinds of behavior that you find.  Locate the transition
+from one behavior to another by ``bracketing'' (i.e.~find two very
+similar values of $\lambda$ so that the smaller value leads to one
+behavior and the larger value to another) and determine $\lambda_1$,
+$\lambda_2$, and $\lambda_3$.
+
+\end{enumerate}
+
+
+
+\end{document}

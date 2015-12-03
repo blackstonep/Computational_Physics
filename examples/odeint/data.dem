@@ -1,0 +1,4 @@
+set key off
+set grid
+plot "datafile" w lines 
+pause -1

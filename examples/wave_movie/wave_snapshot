@@ -1,0 +1,16 @@
+plot 8/(pi*pi)*(sin(pi*x)*cos(pi*t) \
+    - 1./9.*sin(3.*pi*x)*cos(3.*pi*t) \
+    + 1./25.*sin(5.*pi*x)*cos(5.*pi*t) \
+    - 1./49.*sin(7.*pi*x)*cos(7.*pi*t) \
+    + 1./81.*sin(9.*pi*x)*cos(9.*pi*t) \
+    - 1./121.*sin(11.*pi*x)*cos(11.*pi*t) \
+    + 1./169.*sin(13.*pi*x)*cos(13.*pi*t) \
+    - 1./225.*sin(15.*pi*x)*cos(15.*pi*t) \
+    + 1./289.*sin(17.*pi*x)*cos(17.*pi*t) \
+    - 1./361.*sin(19.*pi*x)*cos(19.*pi*t) \
+    + 1./441.*sin(21.*pi*x)*cos(21.*pi*t) \
+    - 1./529.*sin(23.*pi*x)*cos(23.*pi*t) \
+    + 1./625.*sin(25.*pi*x)*cos(25.*pi*t) \
+    - 1./729.*sin(27.*pi*x)*cos(27.*pi*t) \
+    + 1./841.*sin(29.*pi*x)*cos(29.*pi*t) \
+)

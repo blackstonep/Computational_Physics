@@ -1,0 +1,10 @@
+set title "Please graph this data please"
+set ticslevel 1.0
+set view 6, 6
+set autoscale
+set style data points
+set xlabel "Retarding Constant, k"
+set ylabel "Flight Time (s)"
+set key box
+plot sin(x)
+pause -1 "Hit return to continue"

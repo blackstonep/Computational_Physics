@@ -1,0 +1,73 @@
+set title 'Temperature Profiles, Numerical and Anayltic (Order = 200), L = 64'
+set grid
+set xlabel 'x/a'
+set ylabel 'y/a'
+set zlabel 'T/T_o'
+unset colorbox
+splot "data_L=64.dat" u 1:2:3 pointsize 4 title "Numerical", "data_L=64.dat" \
+	u 1:2:4 w points palette pointsize 1 pointtype 5 title "Analytical"
+pause -1 "Hit enter"
+set terminal postscript
+set output "| ps2pdf - temp_profile.pdf"
+replot
+
+set terminal x11
+set title "Temperature vs. x/a (y/a = 1/2), L=64"
+set xlabel 'x/a'
+set ylabel 'T(x,a/2)'
+set grid
+set key
+plot "altdata.dat" u 1:2 title "Numerical", "altdata.dat" u 1:3 w l title "Analytical"
+pause -1 "Hit enter" 
+set terminal postscript
+set output "| ps2pdf - alttemp_profile.pdf"
+replot
+
+set terminal x11
+set title "Error at x = y = a/2 vs. Interval Size"
+set xlabel "Interval Length / a = 1 / L"
+set ylabel "{/Symbol D}T/T_o"
+set grid 
+set key off 
+plot "errordata.dat" 
+pause -1 "Hit enter"
+set terminal postscript enhanced
+set output "| ps2pdf - error_data_linear.pdf"
+replot
+
+set terminal x11
+set title "Error at x = y = a/2 vs. Interval Size (log-log)"
+set logscale xy
+set ylabel "log (Error)"
+plot "errordata.dat"
+pause -1 "Hit enter"
+set terminal postscript enhanced
+set output "| ps2pdf - error_data_loglog.pdf"
+replot
+
+set terminal x11
+unset logscale xy
+set xlabel "L"
+set ylabel "Runtime (s)"
+set title "Runtime vs. L (lin-lin)"
+set grid 
+set key off
+plot "timedata.dat"
+pause -1 "Hit enter"
+set terminal postscript
+set output "| ps2pdf - time_data_linear.pdf"
+replot
+
+set terminal x11
+set key top left
+set ylabel "Runtime (log(s))"
+set title "Runtime vs. L (log-log)"
+set logscale y
+set logscale x
+plot "timedata.dat", x*x*x*x*x*x*10**-8.5 w l title "x^6"
+pause -1 "Hit enter"
+set terminal postscript
+set output "| ps2pdf - time_data_loglog.pdf"
+replot
+
+

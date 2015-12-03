@@ -1,0 +1,21 @@
+set xrange [0:50]
+set mxtics 10
+set grid mxtics
+set grid xtics 
+set terminal x11 enhanced
+set key noautotitles
+set key top center
+set xlabel "Time"
+set ylabel "{/Symbol q}"
+set title "{/Symbol q} vs. Time for {/Symbol a}=1, {/Symbol a}=0.25"
+plot "dataD_alpha1" w l title "{/Symbol a}=1.00",\
+	"dataD_alpha25" w l title "{/Symbol a}=0.25",\
+	0 w l
+pause -1 'hit enter
+
+set terminal postscript enhanced
+set output "| ps2pdf - partDgraph.pdf"
+replot
+
+set xrange [50:100]
+replot

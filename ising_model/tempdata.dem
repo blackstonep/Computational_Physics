@@ -1,0 +1,22 @@
+set title "Ave. Equilibrium Energy vs. Temperature"
+set xlabel "Temperature"
+set ylabel "Energy"
+set grid 
+set key off
+plot "tempdata.dat" using 1:2 with lines, "tempdata.dat" using 1:2:3 with errorbars
+set terminal postscript
+set output "| ps2pdf - energy_v_temp.pdf"
+replot
+pause -1 "Hit enter" 
+
+set terminal x11
+set title "Ave. Equilibrium Magn. vs. Temperature" 
+set xlabel "Temperature" 
+set ylabel "Magnetization"
+set grid 
+set key off
+plot "tempdata.dat" using 1:4 with lines, "tempdata.dat" using 1:4:5 with errorbars
+set terminal postscript
+set output "| ps2pdf - magn_v_temp.pdf"
+replot
+pause -1 "Hit enter"

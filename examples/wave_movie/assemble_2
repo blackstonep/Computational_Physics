@@ -1,0 +1,5 @@
+set xrange [0:1]
+set yrange [-0.1:1]
+plot 1.0 - abs(x-0.5)/(x-0.5)*(2.*x-1), 8./(pi*pi)*sin(pi*x), \
+      -8./(9.*pi*pi)*sin(3.0*pi*x), \
+      8.0/(pi*pi)*(sin(pi*x) - 1./9.*sin(3.*pi*x))

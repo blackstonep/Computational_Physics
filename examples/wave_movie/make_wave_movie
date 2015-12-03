@@ -1,0 +1,18 @@
+#!/usr/bin/perl -w
+use Getopt::Std;
+$USAGE=<<'EoF';
+  Usage: make_wave_movie 
+EoF
+my %options=();
+getopts("ah",\%options) || die "$USAGE";
+die "$USAGE" if defined $options{h};
+open(OUT,">wave_movie");
+print OUT "set xrange [0:1]\n";
+print OUT "set yrange [-1:1]\n";
+for ($t=0.0; $t<=2.001; $t += 0.01) {
+    print OUT "t=$t\n";
+#    print OUT "load 'double_pluck_wave'\n";
+    print OUT "load 'wave_snapshot'\n";
+    print OUT "pause 0.05\n";
+}
+close OUT;
