@@ -1,4 +1,0 @@
-set contour base
-set dgrid3d
-unset surface
-set cntrparam levels incremental 0,0.01,1
