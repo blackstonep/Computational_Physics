@@ -53,15 +53,15 @@ struct InFall {
 };
 
 int main() {
-	int numpoints;
+	int numpoints = 100;
 	ofstream rdata("rdata.dat");
 
-	cout<< "Number of data points: ";
-	cin>>numpoints;
+//	cout<< "Number of data points: ";
+//	cin>>numpoints;
 
 	InFall infall(numpoints);
 
-	for (int i = 10; i<64; i+=10) {
+	for (int i = 10; i<64; i+=1) {
 		cout<< "After " << i << " days, Radius = " << infall(double(i))<<endl;
 		rdata<< i << ", "<<infall(double(i))<<endl;
 	};

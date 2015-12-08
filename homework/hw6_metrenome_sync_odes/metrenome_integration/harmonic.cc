@@ -59,7 +59,7 @@ struct Coupling {
     	- eta*(theta - otherTheta);
   }
 
-  //Update theta2 within theta1 structure (vice versa)
+  //Update theta2 within theta1 structure (visa versa)
   void changevar(double update) {
   	otherTheta = update;
   }

@@ -1,0 +1,36 @@
+
+#Graph for rhobar = 0.5, drho = 0.0005
+#
+set terminal x11 
+set title "{/Symbol r} vs. x, ~{/Symbol r}{.4-} = 0.5, {/Symbol d}{/Symbol r} = 0.0005"
+set xlabel "x" 
+set ylabel "{/Symbol r}(x)"
+set mxtics 2
+set grid
+set grid mxtics
+set yrange[0.49975:0.50375]
+plot for [i=0:12:2] 'a_data_t='.i.'.dat' u 1:($2 + .00025*i) w l t 't = 0.'.i
+
+pause -1 "hit enter"
+
+set terminal postscript enhanced
+set output "| ps2pdf - part_a.pdf"
+replot 
+
+#Graph for rhobar = 0.6, drho = 0.0005
+#
+set terminal x11 
+set title "{/Symbol r} vs. x, ~{/Symbol r}{.4-} = 0.6, {/Symbol d}{/Symbol r} = 0.0005"
+set xlabel "x" 
+set ylabel "{/Symbol r}(x)"
+set mxtics 2
+set grid
+set grid mxtics
+set yrange[0.59975:0.60375]
+plot for [i=0:12:2] 'b_data_t='.i.'.dat' u 1:($2 + .00025*i) w l t 't = 0.'.i
+
+pause -1 "hit enter"
+
+set terminal postscript enhanced
+set output "| ps2pdf - part_b.pdf"
+replot 
