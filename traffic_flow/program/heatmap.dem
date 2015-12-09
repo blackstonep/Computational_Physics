@@ -1,0 +1,10 @@
+
+
+unset key
+
+set palette rgbformula 23,28,3
+set cbrange[.5:.5006]
+set view map
+splot "matrix_data.dat" matrix with image
+
+pause -1 "hit enter"
