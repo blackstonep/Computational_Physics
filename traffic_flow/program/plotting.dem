@@ -1,4 +1,5 @@
 
+#
 #Graph for rhobar = 0.5, drho = 0.0005
 #
 set terminal x11 
@@ -6,21 +7,21 @@ set title "{/Symbol r} vs. x, ~{/Symbol r}{.4-} = 0.5, {/Symbol d}{/Symbol r} = 
 set xlabel "x" 
 set key noautotitles
 
+set xrange[0:1]
 set ylabel "{/Symbol r}(x)"
 set mxtics 2
 set grid
 set grid mxtics
 set yrange[0.49975:0.50375]
 plot for [i=0:12:2] '0.5_data_t='.i.'.dat' u 1:($2 + .00025*i) w l ls 1, \
-	for [i=0:12:2] '0.5_data_t='.i.'.dat' every 100 u 1:($2 + .00025*i) t '10 * t = '.i 
-
+	for [i=0:12:2] '0.5_data_t='.i.'.dat' every 100 u 1:($2 + .00025*i) t '10 * t = '.i, 'projected_0.5.dat' w l t "Analytical Propagation"
 
 pause -1 "hit enter"
-
 set terminal postscript enhanced
 set output "| ps2pdf - part_a.pdf"
 replot 
 
+#
 #Graph for rhobar = 0.6, drho = 0.0005
 #
 set terminal x11 
@@ -31,8 +32,9 @@ set mxtics 2
 set grid
 set grid mxtics
 set yrange[0.59975:0.60375]
+projected(x) = -1.25*(x-0.5)+0.601
 plot for [i=0:12:2] '0.6_data_t='.i.'.dat' u 1:($2 + .00025*i) w l ls 1, \
-	for [i=0:12:2] '0.6_data_t='.i.'.dat' every 100 u 1:($2 + .00025*i) t '10 * t = '.i 
+	for [i=0:12:2] '0.6_data_t='.i.'.dat' every 100 u 1:($2 + .00025*i) t '10 * t = '.i, 'projected_0.6.dat' w l t "Analytical Propagation"
 
 pause -1 "hit enter"
 
@@ -44,7 +46,7 @@ replot
 #
 set key top left
 set terminal x11 
-set title "Shockwave Data, no viscosity"
+set title "Shockwave Data, {/Symbol h} = 0.0"
 set xlabel "x" 
 set ylabel "{/Symbol r}(x)"
 set mxtics 2
@@ -55,7 +57,7 @@ set grid mxtics
 unset yrange
 set yrange[0.5:3.0]
 plot for [i=0:12:2] '0.7_data_t='.i.'.dat' u 1:($2 + .15*i) w l ls 1, \
-	for [i=0:12:2] '0.7_data_t='.i.'.dat' every 100 u 1:($2 + .15*i) t '10*t='.i
+	for [i=0:12:2] '0.7_data_t='.i.'.dat' every 100 u 1:($2 + .15*i) t '10*t='.i, 'projected_0.7.dat' w l t "Analytical Propagation", 'numerical_0.7.dat' w l t "Numerical Propagation"
 
 pause -1 "hit enter"
 set terminal postscript enhanced
@@ -66,7 +68,7 @@ replot
 #
 set key top left
 set terminal x11 
-set title "Shockwave Data, Viscosity"
+set title "Shockwave Data, {/Symbol h = 0.17}"
 set xlabel "x" 
 set ylabel "{/Symbol r}(x)"
 set mxtics 2
@@ -76,10 +78,47 @@ set grid
 set grid mxtics
 unset yrange
 set yrange[0.5:3.0]
-plot for [i=0:12:2] 'visc=0.1_rho_bar=0.7_t='.i.'.dat' u 1:($2 + .15*i) w l ls 1, \
-	for [i=0:12:2] 'visc=0.1_rho_bar=0.7_t='.i.'.dat' every 100 u 1:($2 + .15*i) t '10*t='.i
+plot for [i=0:12:2] 'visc=0.17_rho_bar=0.7_t='.i.'.dat' u 1:($2 + .15*i) w l ls 1, \
+	for [i=0:12:2] 'visc=0.17_rho_bar=0.7_t='.i.'.dat' every 100 u 1:($2 + .15*i) t '10*t='.i, 'projected_0.7.dat' w l t "Analytical Propagation", 'numerical_0.7.dat' w l t "Numerical Propagation"
 
 pause -1 "hit enter"
 set terminal postscript enhanced
-set output "| ps2pdf - shockwave_novisc.pdf"
+set output "| ps2pdf - shockwave_visc.pdf"
 replot
+
+#Close-up graph of viscosity profile. 
+#
+set terminal x11
+set yrange[0.65:0.875]
+set ytics 0.7, 0.15
+set key off
+set grid
+set grid mytics
+set title "Close-up view of Viscosity Profile: {/Symbol h}=0.17"
+set xlabel "x"
+set ylabel "{/Symbol r}"
+plot 'visc=0.17_rho_bar=0.7_t=12.dat' w l
+
+pause -1 "hit enter"
+set terminal postscript enhanced
+set output "| ps2pdf - close-up-viscosity.pdf"
+replot
+
+#Graph for rhobar = 0.3, drho = -0.2
+#
+#set terminal x11 
+#set title "{/Symbol r} vs. x, ~{/Symbol r}{.4-} = 0.3, {/Symbol d}{/Symbol r} = -0.2"
+#set xlabel "x" 
+#set key
+#set key noautotitles
+#
+#set ylabel "{/Symbol r}(x)"
+#set mxtics 2
+#set grid
+#set grid mxtics
+#unset yrange
+#set yrange[0.1:0.50375]
+#plot for [i=0:12:2] '0.3_data_t='.i.'.dat' u 1:($2 + .25*i) w l ls 1, \
+#	for [i=0:12:2] '0.3_data_t='.i.'.dat' every 100 u 1:($2 + .25*i) t '10 * t = '.i 
+#
+#pause -1 "hit enter"

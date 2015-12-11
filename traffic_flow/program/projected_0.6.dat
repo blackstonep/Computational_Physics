@@ -1,0 +1,7 @@
+#
+#Making a datafile to plot the projected
+#propagation of rho = 0.6 because 
+#gnuplot is beyond my control. 
+#
+0.5	0.6005
+0.26	0.6035

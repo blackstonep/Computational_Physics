@@ -182,7 +182,7 @@ struct TrafficIntegrator {
 		outfile.open(filename.str().c_str());
 		outfile.setf(ios::left);
 		outfile << "#====================================================" << endl;		
-		outfile << setw(4) << "#" << "t = " << setw(8) << t_final <<
+		outfile << "#" << "t = " << setw(8) << t_final <<
 					"rho_bar = " << setw(8) << rho_bar << 
 					"Viscosity = " << visc << endl;
 		outfile << "#====================================================" << endl;
