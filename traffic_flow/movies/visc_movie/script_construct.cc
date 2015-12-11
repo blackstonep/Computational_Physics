@@ -32,7 +32,7 @@ int main() {
 	for (int i=0; i<cycles; i++) {
 		for (int t=0; t<50; t+= 1) {
 			outfile << "t = " << t << endl;
-			outfile << "plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l" << endl;
+			outfile << "plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l" << endl;
 			outfile << "pause 0.3" << endl;
 		}
 	}

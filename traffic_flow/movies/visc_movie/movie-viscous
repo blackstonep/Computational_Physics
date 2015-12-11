@@ -2,452 +2,452 @@ set xrange[0:1]
 set yrange[0.6:1.1]
 set grid
 t = 0
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 1
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 2
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 3
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 4
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 5
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 6
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 7
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 8
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 9
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 10
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 11
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 12
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 13
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 14
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 15
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 16
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 17
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 18
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 19
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 20
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 21
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 22
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 23
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 24
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 25
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 26
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 27
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 28
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 29
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 30
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 31
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 32
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 33
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 34
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 35
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 36
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 37
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 38
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 39
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 40
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 41
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 42
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 43
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 44
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 45
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 46
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 47
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 48
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 49
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 0
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 1
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 2
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 3
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 4
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 5
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 6
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 7
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 8
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 9
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 10
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 11
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 12
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 13
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 14
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 15
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 16
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 17
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 18
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 19
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 20
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 21
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 22
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 23
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 24
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 25
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 26
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 27
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 28
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 29
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 30
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 31
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 32
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 33
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 34
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 35
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 36
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 37
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 38
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 39
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 40
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 41
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 42
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 43
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 44
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 45
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 46
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 47
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 48
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 49
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 0
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 1
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 2
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 3
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 4
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 5
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 6
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 7
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 8
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 9
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 10
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 11
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 12
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 13
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 14
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 15
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 16
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 17
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 18
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 19
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 20
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 21
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 22
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 23
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 24
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 25
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 26
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 27
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 28
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 29
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 30
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 31
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 32
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 33
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 34
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 35
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 36
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 37
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 38
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 39
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 40
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 41
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 42
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 43
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 44
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 45
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 46
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 47
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 48
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3
 t = 49
-plot 'visc=0.1_rho_bar=0.7_t='.t.'.dat' w l
+plot 'visc=0.17_rho_bar=0.7_t='.t.'.dat' w l
 pause 0.3

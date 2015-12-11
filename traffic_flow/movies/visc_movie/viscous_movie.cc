@@ -255,10 +255,10 @@ int main() {
 	rho_bar = 0.7;
 	del_rho = 0.15;
 
-	TrafficIntegrator whaaat(rho_bar, del_rho, dim, 0.8, visc);
+/*	TrafficIntegrator whaaat(rho_bar, del_rho, dim, 0.8, visc);
 	whaaat();
 	whaaat.print();	
-
+*/
 /*	for (double t_run=0.01; t_run<=tmax; t_run+=del_t) {
 
 		TrafficIntegrator integrator(rho_bar, del_rho, dim, t_run, visc);
@@ -275,7 +275,7 @@ int main() {
 	//And now using artificial viscosity... 
 	//
 
-	visc = 0.1;
+	visc = 0.17;
 
 	for (double t_run=0.01; t_run<=tmax; t_run+=del_t) {
 
